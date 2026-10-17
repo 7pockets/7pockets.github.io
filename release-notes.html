@@ -3,95 +3,130 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PokerNow Release Notes</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-        }
-        header {
-            background-color: #333;
-            color: #fff;
-            text-align: center;
-            padding: 1rem;
-        }
-        h1 {
-            margin: 0;
-        }
-        main {
-            padding: 2rem;
-        }
-        section {
-            background-color: #fff;
-            padding: 1.5rem;
-            margin-bottom: 2rem;
-            border-radius: 5px;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-        }
-        h2 {
-            margin-top: 0;
-        }
-        ul {
-            padding-left: 1.5rem;
-        }
-        footer {
-            background-color: #333;
-            color: #fff;
-            text-align: center;
-            padding: 1rem;
-            margin-top: 2rem;
-        }
-    </style>
+    <title>Release Notes · Unfold: Just Unmarkable Poker</title>
+    <meta name="description" content="What's new in Unfold: Just Unmarkable Poker. Features, fixes and known issues for each release.">
+    <meta name="theme-color" content="#07070a">
+    <link rel="canonical" href="https://www.pokernow.live/release-notes.html">
+    <link rel="icon" type="image/png" href="pokernow_logo.png">
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <header>
-        <img src="pokernow_logo.png" alt="PokerNow Logo" width="100" height="100">
-        <h1>PokerNow Release Notes</h1>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header">
+        <div class="container">
+            <a class="brand" href="index.html">
+                <img src="pokernow_logo.png" alt="" width="38" height="38">
+                Unfold
+            </a>
+            <nav aria-label="Main">
+                <ul class="nav">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="release-notes.html" aria-current="page">Release Notes</a></li>
+                    <li><a href="privacy-policy.html">Privacy</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
-    <main>
-        <section>
-            <h2>Version 0.1 - Initial Release</h2>
-            <p>We're excited to announce the launch of PokerNow, your new favorite companion for live poker games! This initial release brings the thrill of poker night to your mobile device with a range of features designed to enhance your gameplay experience.</p>
+
+    <main id="main">
+        <section class="page-hero">
+            <div class="container">
+                <span class="badge">Android Beta</span>
+                <h1><span class="silver-text">Release Notes</span></h1>
+                <p>What's new in Unfold, release by release.</p>
+                <div class="divider" aria-hidden="true">&spades;&hearts;&diams;&clubs;</div>
+            </div>
         </section>
-        <section>
-            <h2>New Features:</h2>
-            <ul>
-                <li><strong>Game Creation</strong>: Easily set up new poker games with a unique game ID.</li>
-                <li><strong>Join Existing Games</strong>: Use a game ID to join games created by friends.</li>
-                <li><strong>Real-time Multiplayer</strong>: Enjoy seamless, lag-free gameplay with our WebSocket integration.</li>
-                <li><strong>Dynamic Game Phases</strong>: Experience all phases of a poker game, from pre-flop to showdown.</li>
-                <li><strong>Automatic Chip Tracking</strong>: Say goodbye to manual chip counting - we handle it all for you!</li>
-                <li><strong>Hand Rankings</strong>: Built-in support for standard poker hand rankings.</li>
-                <li><strong>Player Actions</strong>: Perform all standard poker actions including check, call, raise, and fold.</li>
-                <li><strong>Lobby System</strong>: Wait for all players to join before the game begins.</li>
-                <li><strong>Responsive Design</strong>: Enjoy a smooth experience on various screen sizes.</li>
-            </ul>
-        </section>
-        <section>
-            <h2>Technical Highlights:</h2>
-            <ul>
-                <li>Secure WebSocket connections for real-time updates</li>
-                <li>Efficient state management for a responsive UI</li>
-                <li>Robust error handling for a stable gaming experience</li>
-            </ul>
-        </section>
-        <section>
-            <h2>Known Issues:</h2>
-            <ul>
-                <li>In rare cases, players may need to refresh their app if they encounter synchronization issues.</li>
-                <li>The chat feature is still in development and will be available in a future update.</li>
-            </ul>
-        </section>
-        <section>
-            <p>We're committed to continually improving PokerNow. Your feedback is crucial in helping us enhance the app. Please don't hesitate to reach out with any suggestions or issues you encounter.</p>
-            <p>Enjoy your game, and may the best hand win!</p>
-        </section>
+
+        <div class="container">
+            <div class="timeline">
+
+                <article class="release upcoming" aria-labelledby="next">
+                    <span class="dot" aria-hidden="true"></span>
+                    <div class="card">
+                        <div class="release-head">
+                            <h2 id="next">Coming next</h2>
+                            <span class="badge plain">In development</span>
+                        </div>
+                        <ul>
+                            <li><strong>Table chat:</strong> talk trash (politely) without leaving the game.</li>
+                            <li>More fixes and polish, based on your beta feedback.</li>
+                        </ul>
+                    </div>
+                </article>
+
+                <article class="release" aria-labelledby="v0-1">
+                    <span class="dot" aria-hidden="true"></span>
+                    <div class="card">
+                        <div class="release-head">
+                            <h2 id="v0-1">Version 0.1</h2>
+                            <span class="badge">Initial Beta Release</span>
+                        </div>
+                        <p>The first beta of Unfold. It brings poker night to your phone: cards are dealt digitally so nobody can mark them, and every chip is counted automatically. Gather your friends, open the app and deal.</p>
+
+                        <div class="release-block">
+                            <h3>New features</h3>
+                            <ul>
+                                <li><span class="tag tag-new">New</span><strong>Game creation:</strong> set up a new table in seconds and get a unique game ID.</li>
+                                <li><span class="tag tag-new">New</span><strong>Join by game ID:</strong> type in a friend's game ID to take a seat at their table.</li>
+                                <li><span class="tag tag-new">New</span><strong>Lobby:</strong> wait until everyone has joined before the first hand is dealt.</li>
+                                <li><span class="tag tag-new">New</span><strong>Real-time multiplayer:</strong> every action appears on every device as soon as it happens.</li>
+                                <li><span class="tag tag-new">New</span><strong>Full hand flow:</strong> every phase of a hand, from pre-flop through flop, turn and river to showdown.</li>
+                                <li><span class="tag tag-new">New</span><strong>Player actions:</strong> check, call, raise and fold.</li>
+                                <li><span class="tag tag-new">New</span><strong>Automatic chip tracking:</strong> no more counting chips by hand. Bets and pots are tallied for you.</li>
+                                <li><span class="tag tag-new">New</span><strong>Hand rankings:</strong> standard poker hand rankings decide every showdown.</li>
+                                <li><span class="tag tag-new">New</span><strong>Responsive design:</strong> works well on phones and tablets of any size.</li>
+                            </ul>
+                        </div>
+
+                        <div class="release-block">
+                            <h3>Under the hood</h3>
+                            <ul>
+                                <li><span class="tag tag-tech">Tech</span>Encrypted, secure WebSocket connections for real-time updates</li>
+                                <li><span class="tag tag-tech">Tech</span>Efficient state management keeps the UI fast</li>
+                                <li><span class="tag tag-tech">Tech</span>Robust error handling for stable sessions</li>
+                            </ul>
+                        </div>
+
+                        <div class="release-block">
+                            <h3>Known issues</h3>
+                            <ul>
+                                <li><span class="tag tag-known">Known</span>Occasionally a device gets out of sync with the table. Restarting the app fixes it.</li>
+                                <li><span class="tag tag-known">Known</span>Table chat isn't available yet. It's coming in a future update.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </article>
+
+                <section class="card cta" aria-labelledby="feedback">
+                    <h2 id="feedback">Your feedback deals the next hand</h2>
+                    <p>Unfold is in beta and your reports shape each release. Found a bug, or have an idea? Let us know.</p>
+                    <div class="hero-actions">
+                        <a class="btn btn-play" href="https://play.google.com/store/apps/details?id=com.sevendeuce.pokernow&amp;hl=en" aria-label="Get Unfold on Google Play">
+                            <svg viewBox="0 0 28 30" aria-hidden="true"><path fill="#00f076" d="M20.4 10.2 3.6.5C2.6-.1 1.7 0 1.2.6L15.6 15z"/><path fill="#00d7fe" d="M1.2.6 15.6 15 1.2 29.4c-.4-.3-.7-.9-.7-1.6V2.2c0-.7.3-1.3.7-1.6z"/><path fill="#ffce00" d="M20.4 19.8 15.6 15l4.8-4.8 5.8 3.3c1.6.9 1.6 2.4 0 3.3z"/><path fill="#ff3a44" d="M20.4 19.8 15.6 15 1.2 29.4c.5.6 1.4.6 2.4.1z"/></svg>
+                            <div><small>Get it on</small><span>Google Play</span></div>
+                        </a>
+                        <a class="btn btn-ghost" href="mailto:support@offsuitlabs.com?subject=Unfold%20feedback">Send feedback</a>
+                    </div>
+                    <p style="margin: 1.6rem auto 0; font-family: var(--font-display); color: var(--silver-400);">Enjoy your game, and may the best hand win.</p>
+                </section>
+
+            </div>
+        </div>
     </main>
-    <footer>
-        <p>&copy; 2025 PokerNow. All rights reserved.</p>
+
+    <footer class="site-footer">
+        <div class="container">
+            <span>&copy; 2026 Unfold &middot; <span class="suits">&spades;<span class="red">&hearts;</span><span class="red">&diams;</span>&clubs;</span></span>
+            <nav aria-label="Footer">
+                <a href="index.html">Home</a>
+                <a href="release-notes.html">Release Notes</a>
+                <a href="privacy-policy.html">Privacy Policy</a>
+                <a href="https://play.google.com/store/apps/details?id=com.sevendeuce.pokernow&amp;hl=en">Google Play</a>
+                <a href="mailto:support@offsuitlabs.com">Contact</a>
+            </nav>
+        </div>
     </footer>
 </body>
 </html>
