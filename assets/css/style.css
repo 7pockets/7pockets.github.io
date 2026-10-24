@@ -1,4 +1,4 @@
-/* Nofold — Just Unmarkable Poker
+/* nFold — Just Unmarkable Poker
    Palette: black / dark grey / dark purple / silver */
 
 :root {
@@ -406,6 +406,112 @@ strong {
     margin-bottom: 0;
 }
 
+/* ---------- Maintenance notice ---------- */
+
+.maintenance {
+    padding-top: 2rem;
+}
+
+/* the whole card reads as "powered down": dim, unplugged, scanlines */
+.notice {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 1.75rem;
+    align-items: stretch;
+    border: 1px dashed rgba(185, 185, 196, 0.22);
+    background:
+        radial-gradient(circle at 3.2rem calc(100% - 3rem), rgba(122, 69, 194, 0.22), transparent 9rem),
+        repeating-linear-gradient(0deg, rgba(255, 255, 255, 0.018) 0 1px, transparent 1px 4px),
+        linear-gradient(160deg, var(--grey-800), var(--ink));
+    box-shadow: inset 0 0 60px rgba(0, 0, 0, 0.55), 0 20px 50px -20px rgba(0, 0, 0, 0.7);
+}
+
+.notice::before {
+    display: none;
+}
+
+.notice-rail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rail-icon {
+    display: grid;
+    place-items: center;
+    width: 48px;
+    height: 48px;
+    flex-shrink: 0;
+    border-radius: 12px;
+}
+
+.rail-icon.dead {
+    color: var(--silver-500);
+    background: var(--grey-900);
+    border: 1px dashed rgba(185, 185, 196, 0.25);
+}
+
+.rail-icon.dead:first-child svg {
+    animation: flicker 6s steps(1, end) infinite;
+}
+
+.rail-icon.live {
+    color: var(--silver-100);
+    background: linear-gradient(135deg, var(--purple-700), var(--purple-900));
+    box-shadow: inset 0 0 0 1px rgba(217, 217, 224, 0.2), 0 0 22px rgba(122, 69, 194, 0.45);
+}
+
+.rail-icon.live svg {
+    animation: spin 12s linear infinite;
+}
+
+.rail-link {
+    flex: 1;
+    min-height: 28px;
+    width: 2px;
+    margin: 6px 0;
+    background: linear-gradient(180deg, rgba(185, 185, 196, 0.25), rgba(157, 110, 224, 0.6));
+}
+
+.rail-link.broken {
+    /* severed connection: dashes with a gap in the middle */
+    background:
+        linear-gradient(180deg, rgba(185, 185, 196, 0.3) 0 35%, transparent 35% 65%, rgba(185, 185, 196, 0.3) 65%);
+    -webkit-mask: repeating-linear-gradient(180deg, #000 0 4px, transparent 4px 7px);
+    mask: repeating-linear-gradient(180deg, #000 0 4px, transparent 4px 7px);
+}
+
+.notice-body {
+    align-self: center;
+    padding-left: 1.75rem;
+    border-left: 1px solid rgba(185, 185, 196, 0.1);
+}
+
+.notice h2 {
+    font-size: clamp(1.4rem, 3vw, 1.8rem);
+    color: var(--silver-200);
+    margin-bottom: 0.6rem;
+}
+
+.notice p {
+    color: var(--silver-400);
+}
+
+.notice a {
+    color: var(--silver-200);
+    text-decoration: underline;
+    text-decoration-color: var(--purple-400);
+    text-underline-offset: 3px;
+}
+
+@keyframes flicker {
+    0%, 100% { opacity: 1; }
+    62% { opacity: 0.25; }
+    64% { opacity: 1; }
+    66% { opacity: 0.4; }
+    68% { opacity: 1; }
+}
+
 /* ---------- Home ---------- */
 
 .hero {
@@ -442,6 +548,17 @@ strong {
     display: flex;
     flex-wrap: wrap;
     gap: 0.8rem;
+}
+
+.store-note {
+    margin: 1rem 0 0;
+    font-size: 0.85rem;
+    color: var(--silver-500);
+}
+
+.store-note strong {
+    color: var(--silver-300);
+    font-weight: 600;
 }
 
 .hero-art {
@@ -993,6 +1110,19 @@ tr:last-child td {
 
     .card {
         padding: 1.4rem;
+    }
+
+    .notice {
+        gap: 1rem;
+    }
+
+    .notice-body {
+        padding-left: 1rem;
+    }
+
+    .rail-icon {
+        width: 40px;
+        height: 40px;
     }
 
     .step::after {
