@@ -1,0 +1,1028 @@
+{
+  "version": 2,
+  "endpoint": "https://script.google.com/macros/s/AKfycbztPd9bHPOYM5fJu7V5DzmKZU_icpvG3crJ9009odfl8e_VnTRLqlU7l3e5SeKhNUV-/exec",
+  "forms": {
+    "en": {
+      "viewUrl": "https://docs.google.com/forms/d/e/1FAIpQLSfDsXILRaVl5KHkvlzZG5U3UdsZFVR-wxslq1rde0WbQ9AN3g/viewform",
+      "inAppUrl": "https://docs.google.com/forms/d/e/1FAIpQLSfDsXILRaVl5KHkvlzZG5U3UdsZFVR-wxslq1rde0WbQ9AN3g/viewform?usp=pp_url&entry.2136118585=In+the+app",
+      "websiteUrl": "https://docs.google.com/forms/d/e/1FAIpQLSfDsXILRaVl5KHkvlzZG5U3UdsZFVR-wxslq1rde0WbQ9AN3g/viewform?usp=pp_url&entry.2136118585=Website",
+      "texts": {
+        "title": "PokerNow is being rebuilt: help shape it",
+        "description": "Hey! I'm the one behind PokerNow.\nIf you've tried opening it lately, you've probably noticed it doesn't work. The servers are down, and I'm really sorry about that.\nHere's the good news: I'm rebuilding it from scratch. And this time I want to build it around how you actually play: who with, where, and what gets in the way.\n\nIt takes about 2 minutes. Mostly tap-to-answer, with a few optional boxes at the end.\nIt's anonymous: no sign-in, no email collected. If you'd like updates or want to test the new version, you can leave your contact at the end, but that's totally up to you.\nFor players 18+.\n\nFollow along: https://www.pokernow.live/",
+        "confirmation": "Thanks! Your answers go straight into planning the new PokerNow. Follow development at https://www.pokernow.live/",
+        "age": {
+          "title": "Are you 18 or older?",
+          "choices": [
+            "Yes",
+            "No"
+          ],
+          "help": ""
+        },
+        "lastGamePage": {
+          "title": "Your last planned game",
+          "help": "Think of the last time a poker game you planned didn't pan out the way you wanted."
+        },
+        "kind": {
+          "title": "1. What kind of game was it?",
+          "help": "Choose the closest answer.",
+          "choices": [
+            "With people I knew, together in the same place",
+            "With people I knew, from different places",
+            "With people I didn't know, in person",
+            "With people I didn't know, online",
+            "Can't think of a planned game that fell through"
+          ]
+        },
+        "blockers": {
+          "title": "2. What got in the way?",
+          "help": "Select all that apply.",
+          "choices": [
+            "Not enough players",
+            "Couldn't agree on a time",
+            "No place to play",
+            "No cards or chips at hand",
+            "An app or site didn't work",
+            "PokerNow was down"
+          ]
+        },
+        "outcome": {
+          "title": "3. What did you end up doing?",
+          "help": "If you tried several things, choose the final outcome.",
+          "choices": [
+            "Played with physical cards",
+            "Played in person using a different app",
+            "Played online from separate places",
+            "Didn't play",
+            "Something else"
+          ]
+        },
+        "howWentPage": {
+          "title": "How it went"
+        },
+        "howWent": {
+          "title": "4. How did playing that way work out?",
+          "choices": [
+            "Met my needs completely",
+            "Met my needs partly",
+            "Didn't meet my needs"
+          ],
+          "help": ""
+        },
+        "habitsPage": {
+          "title": "How you usually play"
+        },
+        "short30": {
+          "title": "5. In the past 30 days, how often did you want to play poker in person but not have enough players?",
+          "help": "Your best estimate is fine.",
+          "choices": [
+            "Never",
+            "Once",
+            "2–3 times",
+            "4 or more times",
+            "Can't remember"
+          ]
+        },
+        "strangers": {
+          "title": "6. In the past 12 months, have you played poker in person with someone you didn't know beforehand?",
+          "choices": [
+            "Yes, at a public venue, such as a café or club",
+            "Yes, but only in private settings",
+            "No",
+            "Can't remember"
+          ],
+          "help": ""
+        },
+        "money": {
+          "title": "7. When you play, is money usually involved?",
+          "choices": [
+            "No, chips or points only",
+            "Small stakes among friends",
+            "Real-money games at venues or online",
+            "It varies",
+            "Prefer not to say"
+          ],
+          "help": ""
+        },
+        "games": {
+          "title": "8. Which games do you play?",
+          "help": "Select all that apply.",
+          "choices": [
+            "Texas Hold'em",
+            "Omaha",
+            "Not sure"
+          ]
+        },
+        "optionalPage": {
+          "title": "Optional",
+          "help": "Everything on this page is optional. Your answers stay anonymous unless you leave contact details below.\n\nAnswers are used only for product research for PokerNow. They are stored in Google Forms by SevenPockets, kept for up to 12 months, then deleted. If you leave contact details and want them removed, email contact@offsuitlabs.com. Privacy policy: https://www.pokernow.live/privacy-policy.html"
+        },
+        "mustHave": {
+          "title": "What's the one thing the new PokerNow has to get right?",
+          "help": ""
+        },
+        "city": {
+          "title": "City + country",
+          "help": "No address needed."
+        },
+        "followUp": {
+          "title": "Want to hear from me?",
+          "help": "Tick what you agree to. Your contact is used only for what you tick. No newsletter or marketing.",
+          "choices": [
+            "Tell me when testing of the new PokerNow starts",
+            "I'm up for one 5-minute chat"
+          ]
+        },
+        "contact": {
+          "title": "Your email or preferred contact",
+          "help": "Only needed if you ticked something above. Leave blank to stay anonymous."
+        },
+        "source": {
+          "title": "Where did you find this form?",
+          "choices": [
+            "In the app",
+            "Play Store page",
+            "Website",
+            "Somewhere else"
+          ],
+          "help": ""
+        }
+      }
+    },
+    "pt": {
+      "viewUrl": "https://docs.google.com/forms/d/e/1FAIpQLSfipaiFBeBJMGvcerK6X85B-AdXvLdPQLOSHeg-2yFHJBvBKg/viewform",
+      "inAppUrl": "https://docs.google.com/forms/d/e/1FAIpQLSfipaiFBeBJMGvcerK6X85B-AdXvLdPQLOSHeg-2yFHJBvBKg/viewform?usp=pp_url&entry.1928863688=No+app",
+      "websiteUrl": "https://docs.google.com/forms/d/e/1FAIpQLSfipaiFBeBJMGvcerK6X85B-AdXvLdPQLOSHeg-2yFHJBvBKg/viewform?usp=pp_url&entry.1928863688=No+site",
+      "texts": {
+        "title": "PokerNow está sendo refeito: ajude a moldar a nova versão",
+        "description": "Oi! Sou eu quem está por trás do PokerNow.\nSe você tentou abrir o app nos últimos tempos, deve ter percebido que ele não funciona. Os servidores caíram, e eu sinto muito por isso.\nA boa notícia: estou refazendo tudo do zero. E dessa vez quero construir o app em cima de como você realmente joga: com quem, onde e o que costuma atrapalhar.\n\nLeva uns 2 minutinhos. Quase tudo é só tocar na resposta, com alguns campos opcionais no final.\nÉ anônimo: sem login e sem coleta de e-mail. Se quiser receber novidades ou testar a nova versão, dá pra deixar seu contato no final, mas só se você quiser.\nPara jogadores com 18 anos ou mais.\n\nAcompanhe por aqui: https://www.pokernow.live/",
+        "confirmation": "Valeu! Suas respostas vão direto para o planejamento do novo PokerNow. Acompanhe o desenvolvimento em https://www.pokernow.live/",
+        "age": {
+          "title": "Você tem 18 anos ou mais?",
+          "choices": [
+            "Sim",
+            "Não"
+          ],
+          "help": ""
+        },
+        "lastGamePage": {
+          "title": "Seu último jogo planejado",
+          "help": "Pense na última vez em que um jogo de pôquer que você planejou não rolou como você queria."
+        },
+        "kind": {
+          "title": "1. Que tipo de jogo era?",
+          "help": "Escolha a resposta mais próxima.",
+          "choices": [
+            "Com pessoas que eu conhecia, juntos no mesmo lugar",
+            "Com pessoas que eu conhecia, cada um em um lugar",
+            "Com pessoas que eu não conhecia, presencialmente",
+            "Com pessoas que eu não conhecia, online",
+            "Não lembro de nenhum jogo planejado que deu errado"
+          ]
+        },
+        "blockers": {
+          "title": "2. O que atrapalhou?",
+          "help": "Marque todas as opções que se aplicam.",
+          "choices": [
+            "Faltaram jogadores",
+            "Não deu para combinar um horário",
+            "Não tinha lugar para jogar",
+            "Não tinha cartas nem fichas",
+            "Um app ou site não funcionou",
+            "O PokerNow estava fora do ar"
+          ]
+        },
+        "outcome": {
+          "title": "3. O que você acabou fazendo?",
+          "help": "Se tentou várias coisas, escolha o resultado final.",
+          "choices": [
+            "Joguei com cartas físicas",
+            "Joguei presencialmente usando outro app",
+            "Joguei online, cada um no seu lugar",
+            "Não joguei",
+            "Outra coisa"
+          ]
+        },
+        "howWentPage": {
+          "title": "Como foi"
+        },
+        "howWent": {
+          "title": "4. Como foi jogar dessa forma?",
+          "choices": [
+            "Atendeu totalmente ao que eu precisava",
+            "Atendeu em parte",
+            "Não atendeu"
+          ],
+          "help": ""
+        },
+        "habitsPage": {
+          "title": "Como você costuma jogar"
+        },
+        "short30": {
+          "title": "5. Nos últimos 30 dias, quantas vezes você quis jogar pôquer presencialmente, mas não tinha jogadores suficientes?",
+          "help": "Uma estimativa já basta.",
+          "choices": [
+            "Nenhuma",
+            "Uma vez",
+            "2–3 vezes",
+            "4 vezes ou mais",
+            "Não lembro"
+          ]
+        },
+        "strangers": {
+          "title": "6. Nos últimos 12 meses, você jogou pôquer presencialmente com alguém que não conhecia antes?",
+          "choices": [
+            "Sim, em um lugar público, como um bar ou clube",
+            "Sim, mas só em ambientes privados",
+            "Não",
+            "Não lembro"
+          ],
+          "help": ""
+        },
+        "money": {
+          "title": "7. Quando você joga, costuma ter dinheiro envolvido?",
+          "choices": [
+            "Não, só fichas ou pontos",
+            "Apostas baixas entre amigos",
+            "Jogos a dinheiro em casas de pôquer ou online",
+            "Depende",
+            "Prefiro não dizer"
+          ],
+          "help": ""
+        },
+        "games": {
+          "title": "8. Quais modalidades você joga?",
+          "help": "Marque todas as opções que se aplicam.",
+          "choices": [
+            "Texas Hold'em",
+            "Omaha",
+            "Não sei"
+          ]
+        },
+        "optionalPage": {
+          "title": "Opcional",
+          "help": "Tudo nesta página é opcional. Suas respostas continuam anônimas, a menos que você deixe seu contato abaixo.\n\nAs respostas são usadas apenas para pesquisa de produto do PokerNow. Elas ficam armazenadas no Google Forms por SevenPockets, são mantidas por até 12 meses e depois apagadas. Se você deixar seu contato e quiser que ele seja removido, envie um e-mail para contact@offsuitlabs.com. Política de privacidade: https://www.pokernow.live/privacy-policy.html"
+        },
+        "mustHave": {
+          "title": "Qual é a única coisa que o novo PokerNow precisa acertar?",
+          "help": ""
+        },
+        "city": {
+          "title": "Cidade + país",
+          "help": "Não precisa de endereço."
+        },
+        "followUp": {
+          "title": "Quer ter notícias minhas?",
+          "help": "Marque o que você aceita. Seu contato será usado só para o que você marcar. Sem newsletter nem marketing.",
+          "choices": [
+            "Me avise quando os testes do novo PokerNow começarem",
+            "Topo uma conversa rápida de 5 minutos"
+          ]
+        },
+        "contact": {
+          "title": "Seu e-mail ou contato preferido",
+          "help": "Só é necessário se você marcou algo acima. Deixe em branco para manter o anonimato."
+        },
+        "source": {
+          "title": "Onde você encontrou este formulário?",
+          "choices": [
+            "No app",
+            "Na página da Play Store",
+            "No site",
+            "Em outro lugar"
+          ],
+          "help": ""
+        }
+      }
+    },
+    "es": {
+      "viewUrl": "https://docs.google.com/forms/d/e/1FAIpQLSes2n6oHhaM2LyGne5bHSnvO2emsQCKW2tKmD5UjBjJBx2Vyg/viewform",
+      "inAppUrl": "https://docs.google.com/forms/d/e/1FAIpQLSes2n6oHhaM2LyGne5bHSnvO2emsQCKW2tKmD5UjBjJBx2Vyg/viewform?usp=pp_url&entry.101189654=En+la+app",
+      "websiteUrl": "https://docs.google.com/forms/d/e/1FAIpQLSes2n6oHhaM2LyGne5bHSnvO2emsQCKW2tKmD5UjBjJBx2Vyg/viewform?usp=pp_url&entry.101189654=En+el+sitio+web",
+      "texts": {
+        "title": "PokerNow se está rehaciendo: ayuda a darle forma",
+        "description": "¡Hola! Soy quien está detrás de PokerNow.\nSi intentaste abrir la app últimamente, seguro notaste que no funciona. Los servidores están caídos, y lo siento mucho.\nLa buena noticia: la estoy rehaciendo desde cero. Y esta vez quiero construirla en torno a cómo juegas de verdad: con quién, dónde y qué te lo complica.\n\nSon unos 2 minutos. Casi todo es tocar una respuesta, con algunos campos opcionales al final.\nEs anónimo: sin iniciar sesión y sin recopilar tu correo. Si quieres novedades o probar la nueva versión, puedes dejar tu contacto al final, pero solo si quieres.\nPara jugadores mayores de 18 años.\n\nSigue el proyecto aquí: https://www.pokernow.live/",
+        "confirmation": "¡Gracias! Tus respuestas van directo a la planificación del nuevo PokerNow. Sigue el desarrollo en https://www.pokernow.live/",
+        "age": {
+          "title": "¿Tienes 18 años o más?",
+          "choices": [
+            "Sí",
+            "No"
+          ],
+          "help": ""
+        },
+        "lastGamePage": {
+          "title": "Tu última partida planeada",
+          "help": "Piensa en la última vez que una partida de póker que planeaste no salió como querías."
+        },
+        "kind": {
+          "title": "1. ¿Qué tipo de partida era?",
+          "help": "Elige la respuesta más cercana.",
+          "choices": [
+            "Con gente que conocía, juntos en el mismo lugar",
+            "Con gente que conocía, desde distintos lugares",
+            "Con gente que no conocía, en persona",
+            "Con gente que no conocía, en línea",
+            "No recuerdo ninguna partida planeada que haya fallado"
+          ]
+        },
+        "blockers": {
+          "title": "2. ¿Qué lo impidió?",
+          "help": "Marca todas las que apliquen.",
+          "choices": [
+            "Faltaron jugadores",
+            "No pudimos acordar un horario",
+            "No había dónde jugar",
+            "No teníamos cartas ni fichas",
+            "Una app o sitio web no funcionó",
+            "PokerNow no funcionaba"
+          ]
+        },
+        "outcome": {
+          "title": "3. ¿Qué terminaste haciendo?",
+          "help": "Si probaste varias cosas, elige el resultado final.",
+          "choices": [
+            "Jugué con cartas físicas",
+            "Jugué en persona usando otra app",
+            "Jugué en línea, cada uno desde su lugar",
+            "No jugué",
+            "Otra cosa"
+          ]
+        },
+        "howWentPage": {
+          "title": "Cómo te fue"
+        },
+        "howWent": {
+          "title": "4. ¿Qué tal funcionó jugar de esa manera?",
+          "choices": [
+            "Cubrió por completo lo que necesitaba",
+            "Cubrió en parte lo que necesitaba",
+            "No cubrió lo que necesitaba"
+          ],
+          "help": ""
+        },
+        "habitsPage": {
+          "title": "Cómo sueles jugar"
+        },
+        "short30": {
+          "title": "5. En los últimos 30 días, ¿cuántas veces quisiste jugar póker en persona pero no había suficientes jugadores?",
+          "help": "Basta con un cálculo aproximado.",
+          "choices": [
+            "Nunca",
+            "Una vez",
+            "2–3 veces",
+            "4 veces o más",
+            "No recuerdo"
+          ]
+        },
+        "strangers": {
+          "title": "6. En los últimos 12 meses, ¿jugaste póker en persona con alguien que no conocías de antes?",
+          "choices": [
+            "Sí, en un lugar público, como un café o un club",
+            "Sí, pero solo en ámbitos privados",
+            "No",
+            "No recuerdo"
+          ],
+          "help": ""
+        },
+        "money": {
+          "title": "7. Cuando juegas, ¿suele haber dinero de por medio?",
+          "choices": [
+            "No, solo fichas o puntos",
+            "Apuestas pequeñas entre amigos",
+            "Partidas con dinero real en salas o en línea",
+            "Depende",
+            "Prefiero no decirlo"
+          ],
+          "help": ""
+        },
+        "games": {
+          "title": "8. ¿Qué modalidades juegas?",
+          "help": "Marca todas las que apliquen.",
+          "choices": [
+            "Texas Hold'em",
+            "Omaha",
+            "No lo sé"
+          ]
+        },
+        "optionalPage": {
+          "title": "Opcional",
+          "help": "Todo en esta página es opcional. Tus respuestas siguen siendo anónimas, salvo que dejes tu contacto abajo.\n\nLas respuestas se usan solo para investigación de producto de PokerNow. Se guardan en Google Forms, a cargo de SevenPockets, durante un máximo de 12 meses, y luego se eliminan. Si dejas tu contacto y quieres que se borre, escribe a contact@offsuitlabs.com. Política de privacidad: https://www.pokernow.live/privacy-policy.html"
+        },
+        "mustHave": {
+          "title": "¿Qué es lo único que el nuevo PokerNow tiene que hacer bien?",
+          "help": ""
+        },
+        "city": {
+          "title": "Ciudad + país",
+          "help": "No hace falta la dirección."
+        },
+        "followUp": {
+          "title": "¿Quieres saber de mí?",
+          "help": "Marca lo que aceptas. Tu contacto se usará solo para lo que marques. Sin boletines ni marketing.",
+          "choices": [
+            "Avísame cuando empiecen las pruebas del nuevo PokerNow",
+            "Me animo a una charla de 5 minutos"
+          ]
+        },
+        "contact": {
+          "title": "Tu correo o contacto preferido",
+          "help": "Solo hace falta si marcaste algo arriba. Déjalo en blanco para mantener el anonimato."
+        },
+        "source": {
+          "title": "¿Dónde encontraste este formulario?",
+          "choices": [
+            "En la app",
+            "En la página de Play Store",
+            "En el sitio web",
+            "En otro lugar"
+          ],
+          "help": ""
+        }
+      }
+    },
+    "fr": {
+      "viewUrl": "https://docs.google.com/forms/d/e/1FAIpQLSeCX96f1mBK6mIvS2s4bFoEs3kHWJmM_jujpaLOiJTga4ZcSA/viewform",
+      "inAppUrl": "https://docs.google.com/forms/d/e/1FAIpQLSeCX96f1mBK6mIvS2s4bFoEs3kHWJmM_jujpaLOiJTga4ZcSA/viewform?usp=pp_url&entry.1714148112=Dans+l'application",
+      "websiteUrl": "https://docs.google.com/forms/d/e/1FAIpQLSeCX96f1mBK6mIvS2s4bFoEs3kHWJmM_jujpaLOiJTga4ZcSA/viewform?usp=pp_url&entry.1714148112=Sur+le+site+web",
+      "texts": {
+        "title": "PokerNow fait peau neuve : votre avis compte",
+        "description": "Bonjour ! C'est moi qui suis derrière PokerNow.\nSi vous avez essayé d'ouvrir l'appli récemment, vous avez sûrement vu qu'elle ne marche plus. Les serveurs sont tombés, et je m'en excuse sincèrement.\nBonne nouvelle : je la reconstruis de zéro. Et cette fois, je veux qu'elle colle à votre vraie façon de jouer : avec qui, où, et ce qui vous en empêche.\n\nÇa prend environ 2 minutes. Surtout des réponses à toucher, avec quelques champs facultatifs à la fin.\nC'est anonyme : pas de connexion, aucun e-mail collecté. Si vous voulez des nouvelles ou tester la nouvelle version, vous pourrez laisser un contact à la fin, mais seulement si vous le souhaitez.\nRéservé aux joueurs de 18 ans et plus.\n\nSuivez l'aventure ici : https://www.pokernow.live/",
+        "confirmation": "Merci ! Vos réponses servent directement à préparer le nouveau PokerNow. Suivez le développement sur https://www.pokernow.live/",
+        "age": {
+          "title": "Avez-vous 18 ans ou plus ?",
+          "choices": [
+            "Oui",
+            "Non"
+          ],
+          "help": ""
+        },
+        "lastGamePage": {
+          "title": "Votre dernière partie prévue",
+          "help": "Pensez à la dernière fois qu'une partie de poker que vous aviez prévue ne s'est pas passée comme vous le vouliez."
+        },
+        "kind": {
+          "title": "1. Quel type de partie était-ce ?",
+          "help": "Choisissez la réponse la plus proche.",
+          "choices": [
+            "Avec des gens que je connaissais, réunis au même endroit",
+            "Avec des gens que je connaissais, chacun de son côté",
+            "Avec des inconnus, en personne",
+            "Avec des inconnus, en ligne",
+            "Je ne vois aucune partie prévue qui soit tombée à l'eau"
+          ]
+        },
+        "blockers": {
+          "title": "2. Qu'est-ce qui a coincé ?",
+          "help": "Cochez toutes les réponses qui s'appliquent.",
+          "choices": [
+            "Pas assez de joueurs",
+            "Impossible de trouver un horaire commun",
+            "Pas de lieu pour jouer",
+            "Ni cartes ni jetons sous la main",
+            "Une application ou un site ne fonctionnait pas",
+            "PokerNow était hors service"
+          ]
+        },
+        "outcome": {
+          "title": "3. Qu'avez-vous fini par faire ?",
+          "help": "Si vous avez essayé plusieurs choses, choisissez le résultat final.",
+          "choices": [
+            "J'ai joué avec de vraies cartes",
+            "J'ai joué en personne avec une autre application",
+            "J'ai joué en ligne, chacun de son côté",
+            "Je n'ai pas joué",
+            "Autre chose"
+          ]
+        },
+        "howWentPage": {
+          "title": "Comment ça s'est passé"
+        },
+        "howWent": {
+          "title": "4. Jouer de cette façon a-t-il répondu à vos besoins ?",
+          "choices": [
+            "Complètement",
+            "En partie",
+            "Pas du tout"
+          ],
+          "help": ""
+        },
+        "habitsPage": {
+          "title": "Vos habitudes de jeu"
+        },
+        "short30": {
+          "title": "5. Au cours des 30 derniers jours, combien de fois avez-vous voulu jouer au poker en personne sans avoir assez de joueurs ?",
+          "help": "Une estimation suffit.",
+          "choices": [
+            "Jamais",
+            "Une fois",
+            "2–3 fois",
+            "4 fois ou plus",
+            "Je ne sais plus"
+          ]
+        },
+        "strangers": {
+          "title": "6. Au cours des 12 derniers mois, avez-vous joué au poker en personne avec quelqu'un que vous ne connaissiez pas avant ?",
+          "choices": [
+            "Oui, dans un lieu public, comme un café ou un club",
+            "Oui, mais seulement dans un cadre privé",
+            "Non",
+            "Je ne sais plus"
+          ],
+          "help": ""
+        },
+        "money": {
+          "title": "7. Quand vous jouez, y a-t-il généralement de l'argent en jeu ?",
+          "choices": [
+            "Non, seulement des jetons ou des points",
+            "Petites mises entre amis",
+            "Parties en argent réel, en salle ou en ligne",
+            "Ça dépend",
+            "Je préfère ne pas répondre"
+          ],
+          "help": ""
+        },
+        "games": {
+          "title": "8. À quelles variantes jouez-vous ?",
+          "help": "Cochez toutes les réponses qui s'appliquent.",
+          "choices": [
+            "Texas Hold'em",
+            "Omaha",
+            "Je ne sais pas"
+          ]
+        },
+        "optionalPage": {
+          "title": "Facultatif",
+          "help": "Tout ce qui figure sur cette page est facultatif. Vos réponses restent anonymes, sauf si vous laissez vos coordonnées ci-dessous.\n\nLes réponses servent uniquement à la recherche produit pour PokerNow. Elles sont stockées dans Google Forms par SevenPockets, conservées 12 mois maximum, puis supprimées. Si vous laissez vos coordonnées et souhaitez qu'elles soient effacées, écrivez à contact@offsuitlabs.com. Politique de confidentialité : https://www.pokernow.live/privacy-policy.html"
+        },
+        "mustHave": {
+          "title": "Quelle est LA chose que le nouveau PokerNow doit absolument réussir ?",
+          "help": ""
+        },
+        "city": {
+          "title": "Ville + pays",
+          "help": "Pas besoin d'adresse."
+        },
+        "followUp": {
+          "title": "Vous voulez avoir des nouvelles ?",
+          "help": "Cochez ce que vous acceptez. Vos coordonnées serviront uniquement à ce que vous cochez. Pas de newsletter ni de marketing.",
+          "choices": [
+            "Prévenez-moi quand les tests du nouveau PokerNow commencent",
+            "D'accord pour un échange de 5 minutes"
+          ]
+        },
+        "contact": {
+          "title": "Votre e-mail ou moyen de contact préféré",
+          "help": "Seulement si vous avez coché quelque chose ci-dessus. Laissez vide pour rester anonyme."
+        },
+        "source": {
+          "title": "Où avez-vous trouvé ce formulaire ?",
+          "choices": [
+            "Dans l'application",
+            "Sur la page Play Store",
+            "Sur le site web",
+            "Ailleurs"
+          ],
+          "help": ""
+        }
+      }
+    },
+    "ar": {
+      "viewUrl": "https://docs.google.com/forms/d/e/1FAIpQLSeKXl5E-rAjhuXNSfRtHDfVimnU5B_qx9eJ3K2WjTbsrwQNVw/viewform",
+      "inAppUrl": "https://docs.google.com/forms/d/e/1FAIpQLSeKXl5E-rAjhuXNSfRtHDfVimnU5B_qx9eJ3K2WjTbsrwQNVw/viewform?usp=pp_url&entry.1468314085=%E2%80%AB%D8%AF%D8%A7%D8%AE%D9%84+%D8%A7%D9%84%D8%AA%D8%B7%D8%A8%D9%8A%D9%82%E2%80%AC",
+      "websiteUrl": "https://docs.google.com/forms/d/e/1FAIpQLSeKXl5E-rAjhuXNSfRtHDfVimnU5B_qx9eJ3K2WjTbsrwQNVw/viewform?usp=pp_url&entry.1468314085=%E2%80%AB%D9%81%D9%8A+%D8%A7%D9%84%D9%85%D9%88%D9%82%D8%B9+%D8%A7%D9%84%D8%A5%D9%84%D9%83%D8%AA%D8%B1%D9%88%D9%86%D9%8A%E2%80%AC",
+      "texts": {
+        "title": "‫PokerNow في دور إعادة البناء: شارك برأيك‬",
+        "description": "‫مرحباً! تطبيق PokerNow من تطويري.‬\n‫إذا حاولت فتح التطبيق مؤخراً، فأكيد لاحظت أنه لا يشتغل.‬\n‫الخوادم متوقفة، وأعتذر لك بصدق على هذا المشكل.‬\n‫الخبر الجيد: أعيد بناء التطبيق الآن من الصفر.‬\n‫وهذه المرة أريد أن أبنيه على طريقة لعبك الحقيقية: مع من تلعب، وأين، وما الذي يعرقل اللعب.‬\n\n‫الأمر يأخذ حوالي دقيقتين فقط.‬\n‫أغلب الأسئلة تكفي فيها نقرة واحدة، مع بعض الخانات الاختيارية في النهاية.‬\n‫الاستمارة مجهولة الهوية: بلا تسجيل دخول، ولا يُجمع أي بريد إلكتروني.‬\n‫إذا أردت أن تتوصل بالجديد أو تجرب النسخة الجديدة، يمكنك ترك وسيلة تواصل في النهاية، والأمر بيدك.‬\n‫الاستمارة موجهة للاعبين البالغين 18 سنة فما فوق.‬\n\n‫تابع جديد التطوير هنا:‬\n‫https://www.pokernow.live/‬",
+        "confirmation": "‫شكراً! إجاباتك ستساعد مباشرة في التخطيط للنسخة الجديدة من PokerNow. تابع التطوير على https://www.pokernow.live/‬",
+        "age": {
+          "title": "‫هل عمرك 18 سنة أو أكثر؟‬",
+          "choices": [
+            "‫نعم‬",
+            "‫لا‬"
+          ],
+          "help": ""
+        },
+        "lastGamePage": {
+          "title": "‫آخر جلسة لعب خططت لها‬",
+          "help": "‫تذكّر آخر مرة خططت فيها للعب البوكر ولم تسر الأمور كما أردت.‬"
+        },
+        "kind": {
+          "title": "‫1. ما نوع اللعب الذي كان مخططاً له؟‬",
+          "help": "‫اختر أقرب إجابة.‬",
+          "choices": [
+            "‫مع أشخاص أعرفهم، مجتمعين في نفس المكان‬",
+            "‫مع أشخاص أعرفهم، كل واحد من مكانه‬",
+            "‫مع أشخاص لا أعرفهم، وجهاً لوجه‬",
+            "‫مع أشخاص لا أعرفهم، عبر الإنترنت‬",
+            "‫لا أتذكر أي جلسة لعب خططت لها ولم تتم‬"
+          ]
+        },
+        "blockers": {
+          "title": "‫2. ما الذي حال دون ذلك؟‬",
+          "help": "‫اختر كل ما ينطبق.‬",
+          "choices": [
+            "‫لم يكن عدد اللاعبين كافياً‬",
+            "‫لم نتفق على موعد‬",
+            "‫لم يكن هناك مكان للعب‬",
+            "‫لم يكن لدينا ورق لعب (كارطة) ولا فيشات‬",
+            "‫تطبيق أو موقع لم يشتغل‬",
+            "‫تطبيق PokerNow كان متوقفاً‬"
+          ]
+        },
+        "outcome": {
+          "title": "‫3. ماذا فعلت في النهاية؟‬",
+          "help": "‫إذا جربت عدة حلول، اختر النتيجة النهائية.‬",
+          "choices": [
+            "‫لعبت بورق لعب حقيقي‬",
+            "‫لعبت وجهاً لوجه باستعمال تطبيق آخر‬",
+            "‫لعبت عبر الإنترنت، كل واحد من مكانه‬",
+            "‫لم ألعب‬",
+            "‫شيء آخر‬"
+          ]
+        },
+        "howWentPage": {
+          "title": "‫كيف كانت التجربة‬"
+        },
+        "howWent": {
+          "title": "‫4. هل لبّت تلك الطريقة احتياجاتك؟‬",
+          "choices": [
+            "‫لبّتها تماماً‬",
+            "‫لبّتها جزئياً‬",
+            "‫لم تلبّها‬"
+          ],
+          "help": ""
+        },
+        "habitsPage": {
+          "title": "‫كيف تلعب عادةً‬"
+        },
+        "short30": {
+          "title": "‫5. خلال آخر 30 يوماً، كم مرة أردت لعب البوكر وجهاً لوجه ولم يكن عدد اللاعبين كافياً؟‬",
+          "help": "‫يكفي تقدير تقريبي.‬",
+          "choices": [
+            "‫ولا مرة‬",
+            "‫مرة واحدة‬",
+            "‫2–3 مرات‬",
+            "‫4 مرات أو أكثر‬",
+            "‫لا أتذكر‬"
+          ]
+        },
+        "strangers": {
+          "title": "‫6. خلال آخر 12 شهراً، هل لعبت البوكر وجهاً لوجه مع شخص لم تكن تعرفه من قبل؟‬",
+          "choices": [
+            "‫نعم، في مكان عام مثل مقهى أو نادٍ‬",
+            "‫نعم، لكن في أماكن خاصة فقط‬",
+            "‫لا‬",
+            "‫لا أتذكر‬"
+          ],
+          "help": ""
+        },
+        "money": {
+          "title": "‫7. عندما تلعب، هل يكون هناك مال في الغالب؟‬",
+          "choices": [
+            "‫لا، فيشات أو نقاط فقط‬",
+            "‫رهانات صغيرة بين الأصدقاء‬",
+            "‫لعب بمال حقيقي في قاعات أو عبر الإنترنت‬",
+            "‫حسب الظروف‬",
+            "‫أفضّل عدم الإجابة‬"
+          ],
+          "help": ""
+        },
+        "games": {
+          "title": "‫8. ما أنواع البوكر التي تلعبها؟‬",
+          "help": "‫اختر كل ما ينطبق.‬",
+          "choices": [
+            "‫Texas Hold'em‬",
+            "‫Omaha‬",
+            "‫لا أعرف‬"
+          ]
+        },
+        "optionalPage": {
+          "title": "‫اختياري‬",
+          "help": "‫كل ما في هذه الصفحة اختياري. تبقى إجاباتك مجهولة الهوية ما لم تترك معلومات تواصلك أدناه.‬\n\n‫تُستعمل الإجابات فقط لأغراض البحث وتطوير PokerNow. تُحفظ في Google Forms من طرف SevenPockets، لمدة لا تتجاوز 12 شهراً، ثم تُحذف. إذا تركت معلومات تواصلك وأردت حذفها، راسل contact@offsuitlabs.com. سياسة الخصوصية: https://www.pokernow.live/privacy-policy.html‬"
+        },
+        "mustHave": {
+          "title": "‫ما هو الشيء الوحيد الذي يجب أن تتقنه النسخة الجديدة من PokerNow؟‬",
+          "help": ""
+        },
+        "city": {
+          "title": "‫المدينة + البلد‬",
+          "help": "‫لا حاجة للعنوان.‬"
+        },
+        "followUp": {
+          "title": "‫هل تريد أن تتوصل بأخباري؟‬",
+          "help": "‫اختر ما توافق عليه. لن تُستعمل معلومات تواصلك إلا لما اخترته. لا نشرة إخبارية ولا تسويق.‬",
+          "choices": [
+            "‫أخبرني عندما تبدأ تجربة النسخة الجديدة من PokerNow‬",
+            "‫أوافق على دردشة لمدة 5 دقائق‬"
+          ]
+        },
+        "contact": {
+          "title": "‫بريدك الإلكتروني أو وسيلة التواصل التي تفضلها‬",
+          "help": "‫ضروري فقط إذا اخترت شيئاً أعلاه. اتركه فارغاً للحفاظ على سرية هويتك.‬"
+        },
+        "source": {
+          "title": "‫أين وجدت هذه الاستمارة؟‬",
+          "choices": [
+            "‫داخل التطبيق‬",
+            "‫في صفحة Play Store‬",
+            "‫في الموقع الإلكتروني‬",
+            "‫في مكان آخر‬"
+          ],
+          "help": ""
+        }
+      }
+    },
+    "ru": {
+      "viewUrl": "https://docs.google.com/forms/d/e/1FAIpQLSczS2NuocaSXlfATNNZrNw6NlXI8L_LP611jFX6hBx3AIy96Q/viewform",
+      "inAppUrl": "https://docs.google.com/forms/d/e/1FAIpQLSczS2NuocaSXlfATNNZrNw6NlXI8L_LP611jFX6hBx3AIy96Q/viewform?usp=pp_url&entry.1924459793=%D0%92+%D0%BF%D1%80%D0%B8%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D0%B8",
+      "websiteUrl": "https://docs.google.com/forms/d/e/1FAIpQLSczS2NuocaSXlfATNNZrNw6NlXI8L_LP611jFX6hBx3AIy96Q/viewform?usp=pp_url&entry.1924459793=%D0%9D%D0%B0+%D1%81%D0%B0%D0%B9%D1%82%D0%B5",
+      "texts": {
+        "title": "PokerNow создаётся заново: помогите сделать его лучше",
+        "description": "Привет! PokerNow — это мой проект.\nЕсли вы недавно пытались открыть приложение, то наверняка заметили, что оно не работает. Серверы упали, и мне очень жаль.\nХорошая новость: я переделываю его с нуля. И на этот раз хочу построить его вокруг того, как вы на самом деле играете: с кем, где и что мешает.\n\nЭто займёт около 2 минут. В основном нужно просто выбрать ответ, а в конце есть несколько необязательных полей.\nВсё анонимно: без входа в аккаунт, почта не собирается. Если хотите получать новости или протестировать новую версию, можно оставить контакт в конце, но только по желанию.\nДля игроков от 18 лет.\n\nСледите за проектом: https://www.pokernow.live/",
+        "confirmation": "Спасибо! Ваши ответы напрямую помогут спланировать новый PokerNow. Следите за разработкой: https://www.pokernow.live/",
+        "age": {
+          "title": "Вам есть 18 лет?",
+          "choices": [
+            "Да",
+            "Нет"
+          ],
+          "help": ""
+        },
+        "lastGamePage": {
+          "title": "Ваша последняя запланированная игра",
+          "help": "Вспомните последний раз, когда запланированная игра в покер прошла не так, как вам хотелось."
+        },
+        "kind": {
+          "title": "1. Что это была за игра?",
+          "help": "Выберите самый близкий ответ.",
+          "choices": [
+            "Со знакомыми, вместе в одном месте",
+            "Со знакомыми, каждый из своего места",
+            "С незнакомыми людьми, вживую",
+            "С незнакомыми людьми, онлайн",
+            "Не припомню запланированной игры, которая сорвалась"
+          ]
+        },
+        "blockers": {
+          "title": "2. Что помешало?",
+          "help": "Отметьте всё подходящее.",
+          "choices": [
+            "Не хватило игроков",
+            "Не смогли договориться о времени",
+            "Негде было играть",
+            "Не было карт или фишек",
+            "Не работало приложение или сайт",
+            "PokerNow не работал"
+          ]
+        },
+        "outcome": {
+          "title": "3. Чем всё закончилось?",
+          "help": "Если вы пробовали несколько вариантов, выберите итоговый.",
+          "choices": [
+            "Сыграли обычными картами",
+            "Сыграли вживую через другое приложение",
+            "Сыграли онлайн, каждый из своего места",
+            "Так и не сыграли",
+            "Что-то другое"
+          ]
+        },
+        "howWentPage": {
+          "title": "Как всё прошло"
+        },
+        "howWent": {
+          "title": "4. Насколько такой вариант вам подошёл?",
+          "choices": [
+            "Полностью подошёл",
+            "Частично подошёл",
+            "Не подошёл"
+          ],
+          "help": ""
+        },
+        "habitsPage": {
+          "title": "Как вы обычно играете"
+        },
+        "short30": {
+          "title": "5. Сколько раз за последние 30 дней вы хотели сыграть в покер вживую, но не хватало игроков?",
+          "help": "Достаточно примерной оценки.",
+          "choices": [
+            "Ни разу",
+            "Один раз",
+            "2–3 раза",
+            "4 раза или больше",
+            "Не помню"
+          ]
+        },
+        "strangers": {
+          "title": "6. Играли ли вы за последние 12 месяцев в покер вживую с кем-то, кого раньше не знали?",
+          "choices": [
+            "Да, в общественном месте, например в кафе или клубе",
+            "Да, но только в частной обстановке",
+            "Нет",
+            "Не помню"
+          ],
+          "help": ""
+        },
+        "money": {
+          "title": "7. Когда вы играете, обычно ли есть денежные ставки?",
+          "choices": [
+            "Нет, только фишки или очки",
+            "Небольшие ставки среди друзей",
+            "Игры на реальные деньги в клубах или онлайн",
+            "По-разному",
+            "Предпочитаю не отвечать"
+          ],
+          "help": ""
+        },
+        "games": {
+          "title": "8. В какие разновидности покера вы играете?",
+          "help": "Отметьте всё подходящее.",
+          "choices": [
+            "Texas Hold'em",
+            "Omaha",
+            "Не знаю"
+          ]
+        },
+        "optionalPage": {
+          "title": "Необязательно",
+          "help": "Всё на этой странице необязательно. Ваши ответы остаются анонимными, если вы не оставите контакты ниже.\n\nОтветы используются только для исследования продукта PokerNow. Они хранятся в Google Forms у SevenPockets не дольше 12 месяцев, затем удаляются. Если вы оставили контакты и хотите их удалить, напишите на contact@offsuitlabs.com. Политика конфиденциальности: https://www.pokernow.live/privacy-policy.html"
+        },
+        "mustHave": {
+          "title": "Что новый PokerNow должен сделать хорошо в первую очередь?",
+          "help": ""
+        },
+        "city": {
+          "title": "Город + страна",
+          "help": "Адрес не нужен."
+        },
+        "followUp": {
+          "title": "Хотите получать от меня новости?",
+          "help": "Отметьте, на что вы согласны. Контакт будет использован только для отмеченного. Никаких рассылок и рекламы.",
+          "choices": [
+            "Сообщите мне о начале тестирования нового PokerNow",
+            "Можно связаться для 5-минутного разговора"
+          ]
+        },
+        "contact": {
+          "title": "Ваш e-mail или удобный способ связи",
+          "help": "Нужно, только если вы что-то отметили выше. Оставьте пустым, чтобы сохранить анонимность."
+        },
+        "source": {
+          "title": "Где вы нашли эту форму?",
+          "choices": [
+            "В приложении",
+            "На странице в Play Store",
+            "На сайте",
+            "В другом месте"
+          ],
+          "help": ""
+        }
+      }
+    },
+    "zh": {
+      "viewUrl": "https://docs.google.com/forms/d/e/1FAIpQLSdcZ6xQ4Qel-nWN1hfN3wuMMbswFiD6opPU7ePP6uxDsrAStg/viewform",
+      "inAppUrl": "https://docs.google.com/forms/d/e/1FAIpQLSdcZ6xQ4Qel-nWN1hfN3wuMMbswFiD6opPU7ePP6uxDsrAStg/viewform?usp=pp_url&entry.766368159=%E5%BA%94%E7%94%A8%E5%86%85",
+      "websiteUrl": "https://docs.google.com/forms/d/e/1FAIpQLSdcZ6xQ4Qel-nWN1hfN3wuMMbswFiD6opPU7ePP6uxDsrAStg/viewform?usp=pp_url&entry.766368159=%E5%AE%98%E6%96%B9%E7%BD%91%E7%AB%99",
+      "texts": {
+        "title": "PokerNow 正在重新开发：一起来塑造新版本",
+        "description": "嗨！我是 PokerNow 的开发者。\n如果您最近打开过这款应用，应该已经发现它用不了了。服务器停止运行了，真的很抱歉。\n好消息是：我正在从零开始重做它。这一次，我想围绕您真实的打牌方式来设计：和谁玩、在哪儿玩、遇到了什么麻烦。\n\n大约 2 分钟。大部分题目点一下就能答，最后有几个选填项。\n完全匿名：无需登录，不收集邮箱。如果您想收到新消息或参与新版本测试，可以在最后留下联系方式，填不填都随您。\n仅限 18 岁及以上玩家。\n\n关注进展：https://www.pokernow.live/",
+        "confirmation": "谢谢！您的回答将直接用于规划新版 PokerNow。关注开发进展：https://www.pokernow.live/",
+        "age": {
+          "title": "您是否已满 18 岁？",
+          "choices": [
+            "是",
+            "否"
+          ],
+          "help": ""
+        },
+        "lastGamePage": {
+          "title": "您上一次计划的牌局",
+          "help": "回想一下最近一次您计划好的扑克牌局没能按预期进行的情况。"
+        },
+        "kind": {
+          "title": "1. 那是什么样的牌局？",
+          "help": "请选择最接近的答案。",
+          "choices": [
+            "和认识的人，在同一个地方",
+            "和认识的人，各自在不同地方",
+            "和不认识的人，线下面对面",
+            "和不认识的人，线上",
+            "想不起有哪次计划好的牌局没成"
+          ]
+        },
+        "blockers": {
+          "title": "2. 是什么原因导致没能如愿？",
+          "help": "可多选。",
+          "choices": [
+            "人数不够",
+            "时间约不到一起",
+            "没有地方玩",
+            "手边没有扑克牌或筹码",
+            "某个应用或网站用不了",
+            "PokerNow 无法使用"
+          ]
+        },
+        "outcome": {
+          "title": "3. 最后您是怎么做的？",
+          "help": "如果尝试了多种方式，请选择最终结果。",
+          "choices": [
+            "用实体扑克牌玩了",
+            "线下面对面，用别的应用玩了",
+            "线上各自在不同地方玩了",
+            "没有玩",
+            "其他情况"
+          ]
+        },
+        "howWentPage": {
+          "title": "效果如何"
+        },
+        "howWent": {
+          "title": "4. 用这种方式玩，效果怎么样？",
+          "choices": [
+            "完全满足了我的需求",
+            "部分满足了我的需求",
+            "没有满足我的需求"
+          ],
+          "help": ""
+        },
+        "habitsPage": {
+          "title": "您平时怎么玩"
+        },
+        "short30": {
+          "title": "5. 在过去 30 天里，您有多少次想线下打扑克却凑不齐人？",
+          "help": "大概估计即可。",
+          "choices": [
+            "从来没有",
+            "1 次",
+            "2–3 次",
+            "4 次或更多",
+            "记不清了"
+          ]
+        },
+        "strangers": {
+          "title": "6. 在过去 12 个月里，您是否和之前不认识的人线下打过扑克？",
+          "choices": [
+            "是，在公共场所，比如咖啡馆或俱乐部",
+            "是，但只在私人场合",
+            "否",
+            "记不清了"
+          ],
+          "help": ""
+        },
+        "money": {
+          "title": "7. 您打牌时通常会涉及金钱吗？",
+          "choices": [
+            "不涉及，只用筹码或积分",
+            "朋友之间小额娱乐",
+            "在牌室或线上玩真钱局",
+            "视情况而定",
+            "不想透露"
+          ],
+          "help": ""
+        },
+        "games": {
+          "title": "8. 您玩哪些扑克玩法？",
+          "help": "可多选。",
+          "choices": [
+            "Texas Hold'em",
+            "Omaha",
+            "不确定"
+          ]
+        },
+        "optionalPage": {
+          "title": "选填",
+          "help": "本页所有内容均为选填。除非您在下方留下联系方式，否则您的回答将保持匿名。\n\n回答仅用于 PokerNow 的产品调研，由 SevenPockets 存储在 Google 表单中，最多保留 12 个月，之后删除。如果您留下了联系方式并希望删除，请发送邮件至 contact@offsuitlabs.com。隐私政策：https://www.pokernow.live/privacy-policy.html"
+        },
+        "mustHave": {
+          "title": "新版 PokerNow 最需要做好的一件事是什么？",
+          "help": ""
+        },
+        "city": {
+          "title": "城市 + 国家",
+          "help": "无需填写详细地址。"
+        },
+        "followUp": {
+          "title": "想收到我的消息吗？",
+          "help": "请勾选您同意的事项。您的联系方式只会用于您勾选的用途。没有新闻通讯，也没有营销推广。",
+          "choices": [
+            "新版 PokerNow 开始测试时通知我",
+            "愿意参加一次 5 分钟的交流"
+          ]
+        },
+        "contact": {
+          "title": "您的电子邮箱或常用联系方式",
+          "help": "仅在上方勾选了选项时需要填写。留空即可保持匿名。"
+        },
+        "source": {
+          "title": "您是在哪里看到这份问卷的？",
+          "choices": [
+            "应用内",
+            "Play 商店页面",
+            "官方网站",
+            "其他地方"
+          ],
+          "help": ""
+        }
+      }
+    }
+  }
+}
