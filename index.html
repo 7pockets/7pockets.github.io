@@ -39,27 +39,43 @@
     <main id="main">
         <section class="maintenance" aria-labelledby="maintenance-title">
             <div class="container">
-                <div class="card notice" role="status">
-                    <div class="notice-rail" aria-hidden="true">
-                        <span class="rail-icon dead"><svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="7" rx="2"/><rect x="3" y="14" width="18" height="7" rx="2"/><path d="M7 6.5h.01M7 17.5h.01"/><path d="M2 2l20 20"/></svg></span>
-                        <span class="rail-link broken"></span>
-                        <span class="rail-icon dead"><svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="m19 5 3-3"/><path d="m2 22 3-3"/><path d="M6.3 20.3a2.4 2.4 0 0 0 3.4 0L12 18l-6-6-2.3 2.3a2.4 2.4 0 0 0 0 3.4Z"/><path d="M7.5 13.5 10 11"/><path d="M10.5 16.5 13 14"/><path d="m12 6 6 6 2.3-2.3a2.4 2.4 0 0 0 0-3.4l-2.6-2.6a2.4 2.4 0 0 0-3.4 0Z"/></svg></span>
-                        <span class="rail-link"></span>
-                        <span class="rail-icon live"><svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 1 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06A1.65 1.65 0 0 0 4.68 15a1.65 1.65 0 0 0-1.51-1H3a2 2 0 1 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06A1.65 1.65 0 0 0 9 4.68a1.65 1.65 0 0 0 1-1.51V3a2 2 0 1 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06A1.65 1.65 0 0 0 19.4 9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 1 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg></span>
+                <!-- Three stops on the rail: servers down, rebuilding, survey. -->
+                <div class="card notice">
+                    <div class="notice-step">
+                        <div class="notice-rail" aria-hidden="true">
+                            <span class="rail-icon dead"><svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="7" rx="2"/><rect x="3" y="14" width="18" height="7" rx="2"/><path d="M7 6.5h.01M7 17.5h.01"/><path d="M2 2l20 20"/></svg></span>
+                            <span class="rail-link broken"></span>
+                        </div>
+                        <div class="notice-text" role="status">
+                            <h2 id="maintenance-title">PokerNow is under maintenance</h2>
+                            <p>Our game servers are currently down, so you can't create or join tables right now.</p>
+                        </div>
                     </div>
-                    <div class="notice-body">
-                        <h2 id="maintenance-title">PokerNow is under maintenance</h2>
-                        <p>Our game servers are currently down, so you can't create or join tables right now. Offsuit Labs is rebuilding the app from scratch, and the new version is coming soon. <a href="#project">See what we're working on</a>.</p>
-                        <p>Thanks for your patience. For updates or questions, email <a href="mailto:support@offsuitlabs.com">support@offsuitlabs.com</a>.</p>
 
-                        <!-- The link defaults to English; the script below switches it to the visitor's language. -->
-                        <div class="notice-survey" id="survey" role="region" aria-labelledby="survey-title">
+                    <div class="notice-step">
+                        <div class="notice-rail" aria-hidden="true">
+                            <span class="rail-icon work"><svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg></span>
+                            <span class="rail-link"></span>
+                        </div>
+                        <div class="notice-text">
+                            <p>Offsuit Labs is rebuilding the app from scratch, and the new version is coming soon. <a href="#project">See what we're working on</a>.</p>
+                            <p>Thanks for your patience. For updates or questions, email <a href="mailto:support@offsuitlabs.com">support@offsuitlabs.com</a>.</p>
+                        </div>
+                    </div>
+
+                    <!-- The link defaults to English; the script below switches it to the visitor's language. -->
+                    <div class="notice-step notice-survey" id="survey" role="region" aria-labelledby="survey-title">
+                        <div class="notice-rail" aria-hidden="true">
+                            <span class="rail-icon live"><svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="8" y="2" width="8" height="4" rx="1"/><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"/><path d="M12 11h4M12 16h4M8 11h.01M8 16h.01"/></svg></span>
+                        </div>
+                        <div class="notice-text">
                             <span class="badge plain">2 minutes &middot; anonymous</span>
+                            <hr class="survey-rule">
                             <h3 id="survey-title">While we rebuild: tell us how your table plays</h3>
                             <p>A few quick questions about your last game night and what got in the way. Your answers decide what Project River does first. No sign-in, no email collected; leave a contact only if you want to hear when testing starts.</p>
-                            <div class="notice-actions">
-                                <a class="btn btn-primary" id="survey-link" target="_blank" rel="noopener" href="https://docs.google.com/forms/d/e/1FAIpQLSfDsXILRaVl5KHkvlzZG5U3UdsZFVR-wxslq1rde0WbQ9AN3g/viewform?usp=pp_url&amp;entry.2136118585=Website">Take the survey</a>
-                            </div>
+                            <p class="notice-actions">
+                                <a class="nav-cta survey-cta" id="survey-link" target="_blank" rel="noopener" href="https://docs.google.com/forms/d/e/1FAIpQLSfDsXILRaVl5KHkvlzZG5U3UdsZFVR-wxslq1rde0WbQ9AN3g/viewform?usp=pp_url&amp;entry.2136118585=Website">Take the survey</a>
+                            </p>
                             <p class="survey-langs" id="survey-langs"></p>
                         </div>
                     </div>
