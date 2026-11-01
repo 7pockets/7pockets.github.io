@@ -635,6 +635,12 @@ a.survey-cta:hover {
     place-items: center;
 }
 
+/* glow and orbit are decoration only: on narrow screens they spread over the notice card above */
+.hero-art::before,
+.hero-art::after {
+    pointer-events: none;
+}
+
 .hero-art::before {
     content: "";
     position: absolute;
