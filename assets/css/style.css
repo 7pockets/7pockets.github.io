@@ -197,6 +197,19 @@ strong {
     box-shadow: inset 0 0 0 1px rgba(157, 110, 224, 0.35);
 }
 
+/* The survey is the one thing we want visitors to do right now. */
+.nav a.nav-cta {
+    color: var(--black);
+    background: var(--silver-gradient);
+    font-weight: 600;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.6);
+}
+
+.nav a.nav-cta:hover {
+    color: var(--black);
+    box-shadow: 0 4px 16px rgba(217, 217, 224, 0.2), inset 0 1px 0 rgba(255, 255, 255, 0.6);
+}
+
 /* ---------- Badges / buttons ---------- */
 
 .badge {
@@ -502,6 +515,28 @@ strong {
     text-decoration: underline;
     text-decoration-color: var(--purple-400);
     text-underline-offset: 3px;
+}
+
+/* the survey is the "live" part of the notice, level with the glowing gear on the rail */
+.notice-survey {
+    margin-top: 1.5rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid rgba(185, 185, 196, 0.1);
+}
+
+.notice-survey h3 {
+    margin: 0.9rem 0 0.4rem;
+    font-size: 1.2rem;
+    color: var(--silver-100);
+}
+
+.notice-actions {
+    margin-top: 1.1rem;
+}
+
+.notice .btn {
+    color: var(--black);
+    text-decoration: none;
 }
 
 @keyframes flicker {

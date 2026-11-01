@@ -30,6 +30,7 @@
                     <li><a href="/" aria-current="page">Home</a></li>
                     <li><a href="release-notes.html">Release Notes</a></li>
                     <li><a href="privacy-policy.html">Privacy</a></li>
+                    <li><a class="nav-cta" href="#survey">Survey</a></li>
                 </ul>
             </nav>
         </div>
@@ -50,6 +51,17 @@
                         <h2 id="maintenance-title">PokerNow is under maintenance</h2>
                         <p>Our game servers are currently down, so you can't create or join tables right now. Offsuit Labs is rebuilding the app from scratch, and the new version is coming soon. <a href="#project">See what we're working on</a>.</p>
                         <p>Thanks for your patience. For updates or questions, email <a href="mailto:support@offsuitlabs.com">support@offsuitlabs.com</a>.</p>
+
+                        <!-- The link defaults to English; the script below switches it to the visitor's language. -->
+                        <div class="notice-survey" id="survey" role="region" aria-labelledby="survey-title">
+                            <span class="badge plain">2 minutes &middot; anonymous</span>
+                            <h3 id="survey-title">While we rebuild: tell us how your table plays</h3>
+                            <p>A few quick questions about your last game night and what got in the way. Your answers decide what Project River does first. No sign-in, no email collected; leave a contact only if you want to hear when testing starts.</p>
+                            <div class="notice-actions">
+                                <a class="btn btn-primary" id="survey-link" target="_blank" rel="noopener" href="https://docs.google.com/forms/d/e/1FAIpQLSfDsXILRaVl5KHkvlzZG5U3UdsZFVR-wxslq1rde0WbQ9AN3g/viewform?usp=pp_url&amp;entry.2136118585=Website">Take the survey</a>
+                            </div>
+                            <p class="survey-langs" id="survey-langs"></p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -100,21 +112,6 @@
                             <a class="btn btn-ghost" href="release-notes.html#project-river">Follow the progress &rarr;</a>
                         </div>
                     </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Filled from survey-config.json (exported by the survey's Apps Script); stays hidden if it can't load. -->
-        <section class="section" id="survey" aria-labelledby="survey-title" hidden>
-            <div class="container">
-                <div class="card cta">
-                    <span class="badge plain">2 minutes &middot; anonymous</span>
-                    <h2 id="survey-title" style="margin-top: 1rem;">Tell us how your table plays</h2>
-                    <p>A few quick questions about your last game night and what got in the way. Your answers decide what Project River does first. No sign-in, no email collected; leave a contact only if you want to hear when testing starts.</p>
-                    <div class="hero-actions">
-                        <a class="btn btn-primary" id="survey-link" href="#survey">Take the survey</a>
-                    </div>
-                    <p class="survey-langs" id="survey-langs"></p>
                 </div>
             </div>
         </section>
@@ -215,7 +212,8 @@
         </div>
     </footer>
     <script>
-        // Point the survey button at the form in the visitor's language (falls back to English).
+        // Point the survey button at the form in the visitor's language and list the others.
+        // If the config can't load, the button keeps its English link.
         (function () {
             var names = { en: 'English', pt: 'Português', es: 'Español', fr: 'Français', ar: 'العربية', ru: 'Русский', zh: '中文' };
             fetch('survey-config.json', { cache: 'no-cache' })
@@ -234,12 +232,13 @@
                     langs.filter(function (l) { return l !== lang; }).forEach(function (l, i) {
                         var a = document.createElement('a');
                         a.href = forms[l].websiteUrl;
+                        a.target = '_blank';
+                        a.rel = 'noopener';
                         a.lang = l;
                         a.textContent = names[l] || l;
                         if (i) others.append(' \u00b7 ');
                         others.append(a);
                     });
-                    document.getElementById('survey').hidden = false;
                 })
                 .catch(function () {});
         })();
